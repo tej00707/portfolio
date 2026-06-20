@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiGithub } from 'react-icons/fi';
 
 function Projects() {
   const projects = [

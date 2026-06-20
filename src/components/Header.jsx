@@ -17,9 +17,9 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <a href="#" className="text-xl font-semibold text-white hover:text-blue-400 transition">
+            <button onClick={() => scrollToSection('home')} className="text-xl font-semibold text-white hover:text-blue-400 transition cursor-pointer">
               Kasula Tejovanth
-            </a>
+            </button>
           </div>
           
           {/* Desktop Navigation */}
